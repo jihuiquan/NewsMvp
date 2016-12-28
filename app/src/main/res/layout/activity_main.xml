@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <import type="android.view.View.OnClickListener" />
+
+        <variable
+        name="newsClickListener"
+        type="OnClickListener" />
+        <variable
+            name="jokeClickListener"
+            type="OnClickListener" />
+        <variable
+            name="funnyClickListener"
+            type="OnClickListener" />
+        <variable
+            name="historyClickListener"
+            type="OnClickListener" />
+    </data>
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.jihuiquan.newsagain.module.home.MainActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#d43d3d"
+            android:fitsSystemWindows="true"
+            android:title="我的头条"
+
+            app:titleTextColor="#FFF"></android.support.v7.widget.Toolbar>
+
+       <FrameLayout
+           android:id="@+id/frame_layout"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="12"></FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorBottomBackground"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/news"
+
+                android:onClick="@{newsClickListener}"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/news_iv"
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:src="@drawable/news"></ImageView>
+
+                <TextView
+                    android:id="@+id/news_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:textColor="#888888"
+                    android:gravity="center"
+                    android:text="资讯"
+                    android:textSize="5pt" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/joke"
+                android:onClick="@{jokeClickListener}"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/joke_iv"
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:src="@drawable/joke"
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/joke_tv"
+                    android:text="笑话"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:textColor="#888888"
+                    android:gravity="center"
+                    android:textSize="5pt" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/funny"
+                android:onClick="@{funnyClickListener}"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/funny_iv"
+                    android:src="@drawable/funny"
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"></ImageView>
+
+                <TextView
+                    android:id="@+id/funny_tv"
+                    android:text="趣图"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:textColor="#888888"
+                    android:gravity="center"
+                    android:textSize="5pt" />
+            </LinearLayout>
+            <LinearLayout
+                android:onClick="@{historyClickListener}"
+                android:id="@+id/history"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <ImageView
+                    android:src="@drawable/history"
+                    android:padding="4dp"
+                    android:id="@+id/history_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"></ImageView>
+
+                <TextView
+                    android:text="历史"
+                    android:id="@+id/history_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:textColor="#888888"
+                    android:gravity="center"
+                    android:textSize="5pt" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
