@@ -5,7 +5,6 @@ import com.example.jihuiquan.newsagain.common.http.HttpServiceManager;
 import com.example.jihuiquan.newsagain.data.joke.source.JokeDataSource;
 
 /**
- * Created by tight on 2016/6/14.
  */
 public class JokeApiService {
 

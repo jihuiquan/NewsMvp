@@ -22,11 +22,10 @@ public class NewsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View newsView = inflater.inflate(R.layout.fragment_news, container, false);
-        FragmentNewsBinding newsBinding = DataBindingUtil.bind(newsView);
+        FragmentNewsBinding newsBinding = DataBindingUtil.inflate(inflater,R.layout.fragment_news, container, false);
         newsPagerAdapter = new NewsPagerAdapter(getFragmentManager());
         newsBinding.vpNews.setAdapter(newsPagerAdapter);
         newsBinding.pstsTitle.setViewPager(newsBinding.vpNews);
-        return newsView;
+        return newsBinding.getRoot();
     }
 }

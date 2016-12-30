@@ -3,57 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_9fdde78ba6643df016f7134b3f321fbe7eb91c75/classes.dex" />
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.1.0_c8986c44cbb3f9ffd401b3e99f195fbf88d7cbb9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_01248514d64cf48082897eee04483792bcbb4803/classes.dex" />
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_3d79ebb880153cc20770928765df3a5c8c8e47ac/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_179fe663762b47488f2b3978a16edc50f89c0fee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_528a6347395386702bbc509bed286494c840319b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_8dcc3aa6b9f81c337cdfea240eaa52f2395c0303/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7912610ed96381c25c36d986eba422731b9641b6">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.astuetz-pagerslidingtabstrip-1.0.1_45c2d08a59343de608d8f100d6258f745fc33ad9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_005b691f9ef12d79c70c6d385cb23e1324482f2c/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_56e8e8916bf932d0af72471b379d09883d63bce7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -62,25 +44,7 @@
         optimize="true"
         revision="25.0.1"
         sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.5_d453d9cc88577b6eb9d25a37ceaf2bd806d0edaf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.1.0_2f3b044ff65a7a3d45838b396a1a4f7ed1ecdf9a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="578a2da2349dc4ee1a28e89914153d574211845f">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ca64074dc3e9eddb142861f09628b46f2108ebcf/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.5_d453d9cc88577b6eb9d25a37ceaf2bd806d0edaf/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -89,16 +53,7 @@
         optimize="true"
         revision="25.0.1"
         sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.3_474e89972d5faa940568625dac87a46c353c6a04/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_d23e20f9b0de1d5c37e447f39bfe627fabb5f27d/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.3_474e89972d5faa940568625dac87a46c353c6a04/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -107,7 +62,16 @@
         optimize="true"
         revision="25.0.1"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_8ba7c0f8c90395efc8a81c6c5f19f2c8ce1d7783/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_8ba7c0f8c90395efc8a81c6c5f19f2c8ce1d7783/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_defd4227ecb321c36a772b72070e5edf755ebbda/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -116,25 +80,16 @@
         optimize="true"
         revision="25.0.1"
         sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_528e6e72a45243165eb1f9fa4fa0f3ef962f6f7f/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_528e6e72a45243165eb1f9fa4fa0f3ef962f6f7f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="9047e3779f66ea4e6b2fbdd0ea391d85a684d7e4">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_879b28f61981b5e8ea7dbae59ff530dc70d0fb68/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_63d0d1f637da22d89bbe1a17445e5cfdfc2cd47d/classes.dex" />
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_caf5d4b0d060d64216ad103aab5f29d848537364/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -143,7 +98,16 @@
         optimize="true"
         revision="25.0.1"
         sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.1.0_a5eb4d61d934d6dd07e8628fde1c0559c0437137/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.1.0_a5eb4d61d934d6dd07e8628fde1c0559c0437137/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_f4a1a718dcdf5f5dffd9e819ab42d6fbc464f43d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -152,7 +116,16 @@
         optimize="true"
         revision="25.0.1"
         sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.3.1_d52f7eb85ef8920899e309f01c0a222c00d1a9b2/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.3.1_d52f7eb85ef8920899e309f01c0a222c00d1a9b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d89da86c1ccb8c7ffcf9d35da9f614bfbd59e184">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_52991e19a31328f4ed741c4b55e62636c4ef6101/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -161,7 +134,7 @@
         optimize="true"
         revision="25.0.1"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_7b0b7aa3fbf4c4a4e538330114324a6304c98b01/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_7b0b7aa3fbf4c4a4e538330114324a6304c98b01/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -170,7 +143,16 @@
         optimize="true"
         revision="25.0.1"
         sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_8603a9dae59bf624d459a2655bf1b3a3b95e126f/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_8603a9dae59bf624d459a2655bf1b3a3b95e126f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_6953bfb5eb14c904ebfe7c6f6307a4551877d8c5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -179,7 +161,7 @@
         optimize="true"
         revision="25.0.1"
         sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.1_6d2af1560547af7455b0572d4fba746025e059e6/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.1_6d2af1560547af7455b0572d4fba746025e059e6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -188,43 +170,34 @@
         optimize="true"
         revision="25.0.1"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_aa03356293fc72a58e715d49c439496c7a11f112/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_aa03356293fc72a58e715d49c439496c7a11f112/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.2.1_bb58185f99aac5af5153487784b500349bb4793c/classes.dex" />
+        sha1="53738d5ed686abe3273e663d42f813d803064d51">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fb466f06525914cd373213b1da825c2aee5bd808/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.1_3c00ea2dc5d969e48c29017b25caaef4082714d1/classes.dex" />
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_3174e582f70a38e55ac8e289ef6edf28f8dc68ef/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_d4ad538ca72f0266f3f466b1770a25e2cc0b85b8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_5ede4301d96f91358f9339d01705f6694552b37b/classes.dex" />
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_aa3fbf77dea2fcdb5cc7ef7e4f09de7fa15480f7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -233,25 +206,52 @@
         optimize="true"
         revision="25.0.1"
         sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_3a7ad00518878bdd0ecedd3f50228d45c3b82c02/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_3a7ad00518878bdd0ecedd3f50228d45c3b82c02/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_d9b588a45832d68416b236f2e5f297fc915bde18/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_4974b46ebf7971ecf75b8c9b965ec015e688cf32/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/jihuiquan/Downloads/NewsAgain/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_bae5e4eb22c0fc967910a4e68aa71a486cff4bbd/classes.dex" />
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_bb0b4a73634d801ec9a872374b518b7335041fe9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.1_2c7eda786b06a13b1be4b4e471002f9d69deaaa2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.astuetz-pagerslidingtabstrip-1.0.1_9fc90bf24b48086f2152ff669c047399547a1d23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jihuiquan/NewsMvp/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Users/jihuiquan/NewsMvp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.2.1_d3386fe4d400086f528bf9b08171fb1a2b998bb5/classes.dex" />
     </item>
 
 </items>

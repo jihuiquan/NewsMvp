@@ -1,9 +1,10 @@
 package com.example.jihuiquan.newsagain.module.news;
 
 import android.content.Context;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
+import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,12 +49,16 @@ public class NewsAdapter extends RecyclerView.Adapter {
             } else {
                 ((NewsViewHolder) holder).binding.ivNewsPic1.setVisibility(GONE);
             }
-
+            final String url = data.getUrl();
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    //TODO ITEM点击操作。。。。。。。。。。。
-                    Log.d("1111","22222");
+                    Intent intent = new Intent();
+                    intent.setClass(context, WebActivity.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putString("URL", url);
+                    intent.putExtra("extra", bundle);
+                    context.startActivity(intent);
                 }
             });
         }

@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".module.home.MainActivity"></activity>
+        <activity android:name=".module.news.WebActivity"></activity>
     </application>
 
 </manifest>

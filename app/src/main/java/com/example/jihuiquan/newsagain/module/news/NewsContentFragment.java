@@ -9,6 +9,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.example.jihuiquan.newsagain.R;
 import com.example.jihuiquan.newsagain.data.news.NewsInfo;
@@ -47,8 +48,7 @@ public class NewsContentFragment extends Fragment implements NewsContract.View{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_news_item, container, false);
-        itemBinding = DataBindingUtil.bind(view);
+        itemBinding = DataBindingUtil.inflate(inflater,R.layout.fragment_news_item, container, false);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
         newsAdapter = new NewsAdapter();
         itemBinding.rvContent.setLayoutManager(linearLayoutManager);
@@ -56,7 +56,7 @@ public class NewsContentFragment extends Fragment implements NewsContract.View{
         newsPresenter = new NewsPresenter(new NewsDataSourceImpl(), this);
         newsPresenter.loadData(type);
         initEvent();
-        return view;
+        return itemBinding.getRoot();
     }
 
 
@@ -70,7 +70,10 @@ public class NewsContentFragment extends Fragment implements NewsContract.View{
 
     @Override
     public void loadFailed(String failedMsg) {
-
+        Toast.makeText(getActivity(),"加载失败！请重新加载",Toast.LENGTH_SHORT).show();
+        if (itemBinding.swipeContainer.isRefreshing()) {
+            itemBinding.swipeContainer.setRefreshing(false);
+        }
     }
     private void initEvent() {
         itemBinding.swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {

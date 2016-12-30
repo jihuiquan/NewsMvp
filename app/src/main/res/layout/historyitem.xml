@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<data>
+    <import type="com.example.jihuiquan.newsagain.data.history.HistoryInfo.ResultBean"/>
+    <variable
+        name="resultBean"
+        type="ResultBean"/>
+</data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/iv_history_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_history_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="@{resultBean.title}"/>
+
+                <TextView
+                    android:id="@+id/tv_history_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp"
+                    android:text="@{resultBean.des}"/>
+
+                <TextView
+                    android:id="@+id/tv_history_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:textSize="8sp"
+                    android:text="@{resultBean.data}"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+</layout>
